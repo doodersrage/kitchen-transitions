@@ -1,0 +1,49 @@
+/* old browser support */
+aside, section, header, footer, nav{
+}
+/* element overrides and resets */
+aside{
+	width:33%;
+	float:left;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+/* clearfix block clear hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+/* page layout */
+.container{
+	max-width:980px;
+}
+section#body{
+	width:66%;
+	float:right;
+}
+/* mobile phone styles */
+@media (max-width: 500px){
+	aside{
+		width:100%;
+		float:none;
+	}
+	section#body{
+		width:100%;
+		float:none;
+	}
+}
