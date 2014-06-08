@@ -6,14 +6,7 @@ body{
 	font-family: 'Marcellus', serif;
 	font-size:14px;
 	color:#2b2e28;
-}
-aside{
-	width:33%;
-	float:left;
-}
-section#body{
-	width:66%;
-	float:right;
+	background:url(../img/marble-bg.jpg) center center;
 }
 img{
 	max-width:100%;
@@ -38,10 +31,53 @@ html[xmlns] .clearfix {
 	height: 1%;
 }
 /* page layout */
+.content{
+	width:100%;
+}
 .container{
 	margin:0 auto;
 	max-width:980px;
-	background:url(../img/marble-bg.jpg) center center;
+}
+.third{
+	width:33%;
+}
+.left{
+	float:left;
+}
+aside{
+	width:33%;
+	float:left;
+}
+section#body{
+	width:66%;
+	float:right;
+}
+section#body h1, section#body h2, section#body h3, section#body h4, section#body h5{
+	font-family: 'Marcellus', serif;
+	color:#80600a;
+}
+section#body h1, section#body h2{
+	font-size:36px;
+}
+/* nav styles */
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	padding:0;
+}
+nav ul a{
+	display:block;
+	text-decoration:none;
+	font-size:24px;
+	color:#3d3c3f;
+	text-transform:uppercase;
+	margin:10px 0;
+}
+/* footer */
+footer{
+	text-align:center;
+	font-size:12px;
+	text-transform:uppercase;
 }
 /* mobile phone styles */
 @media (max-width: 500px){

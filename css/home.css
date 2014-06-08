@@ -6,16 +6,18 @@ body{
 .container{
 	position:relative;
 	max-width:450px;
+	background:url(../img/marble-bg.jpg) center center;
 }
 .content{
+	width:auto;
 	padding:20px;
 }
 aside{
-	width:100%;
+	width:auto;
 	float:none;
 }
 section#body{
-	width:100%;
+	width:auto;
 	float:none;
 }
 /* nav styles */
@@ -28,11 +30,19 @@ nav ul{
 nav ul a{
 	display:block;
 	text-decoration:none;
-	font-size:48px;
+	font-size:40px;
 	color:#3d3c3f;
+	text-transform:uppercase;
 }
 /* footer */
 footer{
+	width:100%;
 	position:absolute;
 	bottom:0;
+	text-align:center;
+}
+@media (max-width: 500px){
+	nav ul a{
+		font-size:25px;
+	}
 }
