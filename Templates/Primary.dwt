@@ -6,7 +6,9 @@
 <title>Kitchen Transitions</title>
 <meta name="description" content="">
 <!-- TemplateEndEditable -->
-<link href="styles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -38,7 +40,7 @@
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> 
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
   <!-- TemplateBeginEditable name="FootScript" --> <!-- TemplateEndEditable --> 
-  <script src="script.js"></script> 
+  <script src="script/script.js"></script> 
 </div>
 </body>
 </html>

@@ -1,0 +1,34 @@
+/* page layout */
+.container{
+	position:relative;
+	max-width:450px;
+}
+.content{
+	padding:20px;
+}
+aside{
+	width:100%;
+	float:none;
+}
+section#body{
+	width:100%;
+	float:none;
+}
+/* nav styles */
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	margin:50px 0;
+	padding:0;
+}
+nav ul a{
+	display:block;
+	text-decoration:none;
+	font-size:48px;
+	color:#3d3c3f;
+}
+/* footer */
+footer{
+	position:absolute;
+	bottom:0;
+}

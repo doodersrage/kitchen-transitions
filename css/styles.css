@@ -2,6 +2,11 @@
 aside, section, header, footer, nav{
 }
 /* element overrides and resets */
+body{
+	font-family: 'Marcellus', serif;
+	font-size:14px;
+	color:#2b2e28;
+}
 aside{
 	width:33%;
 	float:left;
@@ -34,7 +39,9 @@ html[xmlns] .clearfix {
 }
 /* page layout */
 .container{
+	margin:0 auto;
 	max-width:980px;
+	background:url(../img/marble-bg.jpg) center center;
 }
 /* mobile phone styles */
 @media (max-width: 500px){
