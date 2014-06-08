@@ -1,7 +1,3 @@
-var homeSlide;
-var slideIdx = 1;
-var slideImgs = [];
-var prevIdx = 0;
 $(function(){
 	// pull center block to fill full vertical
 	$('.container').height($(window).height());
