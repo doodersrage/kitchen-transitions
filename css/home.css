@@ -34,6 +34,9 @@ nav ul a{
 	color:#3d3c3f;
 	text-transform:uppercase;
 }
+nav ul a:hover{
+	color:#80600a;
+}
 /* footer */
 footer{
 	width:100%;

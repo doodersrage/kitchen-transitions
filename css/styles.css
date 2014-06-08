@@ -47,6 +47,7 @@ html[xmlns] .clearfix {
 aside{
 	width:33%;
 	float:left;
+	background:#d0c8b8;
 }
 section#body{
 	width:66%;
@@ -73,6 +74,9 @@ nav ul a{
 	text-transform:uppercase;
 	margin:10px 0;
 }
+nav ul a:hover{
+	color:#80600a;
+}
 /* footer */
 footer{
 	text-align:center;
@@ -81,6 +85,9 @@ footer{
 }
 /* mobile phone styles */
 @media (max-width: 500px){
+	.container{
+		padding:20px;
+	}
 	aside{
 		width:100%;
 		float:none;
@@ -88,5 +95,14 @@ footer{
 	section#body{
 		width:100%;
 		float:none;
+	}
+	.third{
+		width:auto;
+	}
+	.left{
+		float:none;
+	}
+	.headslide{
+		display:none;
 	}
 }
