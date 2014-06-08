@@ -5,6 +5,7 @@
 <!-- InstanceBeginEditable name="PageHeader" -->
 <title>Gallery | Kitchen Transitions</title>
 <meta name="description" content="">
+<link href="lib/fancyBox/source/jquery.fancybox.css" rel="stylesheet" type="text/css">
 <!-- InstanceEndEditable -->
 <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -44,13 +45,22 @@
   </div>
   <footer>
     <p>15220 Carrollton Blvd Carrollton, VA 23314Phone: 757.356.9292 Fax: 757.356.9299<br>
-    &copy; 2014 Kitchen Transitions</p>
+      &copy; 2014 Kitchen Transitions</p>
   </footer>
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
-  <script src="lib/nivo-slider/jquery.nivo.slider.pack.js"></script> 
-  <!-- InstanceBeginEditable name="FootScript" --> <!-- InstanceEndEditable --> 
-  <script src="script/script.js"></script> 
 </div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+<script src="lib/nivo-slider/jquery.nivo.slider.pack.js"></script> 
+<!-- InstanceBeginEditable name="FootScript" -->
+<script src="lib/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script> 
+<script src="lib/fancyBox/source/jquery.fancybox.pack.js"></script> 
+<script>
+// init fancybox class
+$(function(){
+	$(".fancybox").fancybox();
+});
+</script>
+<!-- InstanceEndEditable --> 
+<script src="script/script.js"></script>
 </body>
 <!-- InstanceEnd --></html>

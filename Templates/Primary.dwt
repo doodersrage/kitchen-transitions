@@ -26,7 +26,7 @@
   <div class="content clearfix">
     <section id="body">
       <article> <!-- TemplateBeginEditable name="PageBody" -->
-      	 <h1>Page Header</h1>
+        <h1>Page Header</h1>
         <p>body goes here</p>
         <!-- TemplateEndEditable --> </article>
     </section>
@@ -44,13 +44,13 @@
   </div>
   <footer>
     <p>15220 Carrollton Blvd Carrollton, VA 23314Phone: 757.356.9292 Fax: 757.356.9299<br>
-    &copy; 2014 Kitchen Transitions</p>
+      &copy; 2014 Kitchen Transitions</p>
   </footer>
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
-  <script src="lib/nivo-slider/jquery.nivo.slider.pack.js"></script> 
-  <!-- TemplateBeginEditable name="FootScript" --> <!-- TemplateEndEditable --> 
-  <script src="script/script.js"></script> 
 </div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+<script src="lib/nivo-slider/jquery.nivo.slider.pack.js"></script> 
+<!-- TemplateBeginEditable name="FootScript" --> <!-- TemplateEndEditable --> 
+<script src="script/script.js"></script>
 </body>
 </html>
