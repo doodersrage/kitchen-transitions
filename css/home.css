@@ -1,3 +1,7 @@
+body{
+	background:url(../img/home-bg.jpg) no-repeat;
+	background-size:cover;
+}
 /* page layout */
 .container{
 	position:relative;
