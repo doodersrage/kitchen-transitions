@@ -83,6 +83,26 @@ footer{
 	font-size:12px;
 	text-transform:uppercase;
 }
+/* contact form */
+#contactForm label{
+	display:block;
+	width:150px;
+	text-align:right;
+	float:left;
+	clear:left;
+	font-weight:700;
+	margin-right:20px;
+}
+#contactForm input[type="submit"]{
+	margin:0 auto;
+	display:block;
+}
+fieldset{
+	border:none;
+}
+input[type="text"],input[type="email"],textarea{
+	width:200px;
+}
 /* mobile phone styles */
 @media (max-width: 500px){
 	.container{
@@ -104,5 +124,17 @@ footer{
 	}
 	.headslide{
 		display:none;
+	}
+	/* contact form */
+	#contactForm label{
+		width:100%;
+		text-align:center;
+	}
+	#contactForm input[type="submit"]{
+		margin:0 auto;
+		display:block;
+	}
+	input[type="text"],input[type="email"],textarea{
+		width:100%;
 	}
 }
