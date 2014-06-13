@@ -60,6 +60,13 @@ section#body h1, section#body h2, section#body h3, section#body h4, section#body
 section#body h1, section#body h2{
 	font-size:36px;
 }
+article img{
+	padding:5px;
+	border:1px solid #C7C7C7;
+	border-radius:4px;
+	margin:4px;
+	background:#D8D8D8;
+}
 /* nav styles */
 nav ul{
 	list-style-type:none;
